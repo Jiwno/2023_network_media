@@ -1,0 +1,87 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin : 0px;
+    padding : 0px;
+}
+
+a {
+    color : black;
+    text-decoration : none;
+}
+
+header, main, footer {
+    margin : 5%;
+}
+
+h1 {
+    width : 100%;
+    text-align : center;
+    margin-bottom : 20px;
+}
+
+.header-container {
+    display : flex;
+    justify-content: space-around;
+}
+
+.header-container a {
+    width : 50%;
+    text-align : center;
+}
+
+.header-container a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    padding : 10px 0px;
+    border-bottom : solid black 1px;
+    border-top : solid black 1px;
+}
+
+.language {
+    position : absolute;
+    top : 20px;
+    right : 5%;
+}
+
+.language p {
+    font-size : 13px;
+}
+
+.language a:hover {
+    text-decoration: underline;
+} 
+
+h3 {
+    font-size : 15px;
+    font-weight : bold;
+}
+
+p {
+    font-size : 13px;
+    line-height : 20px;
+}
+
+p a {
+    text-decoration: underline;
+}
+
+.line {  
+    padding-bottom : 20px;
+    margin-bottom : 20px;
+    border-bottom : solid black 1px;
+}
+
+.container {
+    display : grid;
+    grid-template-columns : 200px 200px;
+    grid-template-rows: auto auto;
+    justify-content : center;
+}
+
+.container h4{
+    font-size : 13px;
+    text-align : end;
+    margin-right : 15px; 
+}
