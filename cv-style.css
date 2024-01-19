@@ -67,8 +67,8 @@ ol {
 }
 
 h3 {
-    font-size : 15px;
-    font-weight : bold;
+    font-size : 13px;
+    /* font-weight : bold; */
     margin-top : 0px;
     margin-bottom : 15px;
 }
@@ -91,7 +91,7 @@ ol li p {
 }
 
 ol li span {
-    font-size : 11px;
+    font-size : 9px;
     font-weight : normal;
 }
 
@@ -126,5 +126,25 @@ ol li span {
 }
 
 .container p a {
+    text-decoration: underline;
+}
+
+.pdf {
+    width : 100%;
+}
+
+
+
+.footer-container {
+    display : flex;   
+    justify-content : space-around; 
+    font-size : 13px;
+}
+
+.footer-container a {
+    text-decoration : underline;
+}
+
+.mail {
     text-decoration: underline;
 }
